@@ -1,4 +1,4 @@
-# My-HackTrinity-19-solutions-
+# My-HackTrinity-19-solutions
 
 Denovo 1 - To find this flag I used radare2 to find a list of all functions. I noticed that there was a function called "sym.print_flag", I decided to run the binary with gdb and used Ctrl-C to get back into the gdb menu and branch the the address of that function. When I did I got the flag: HackTrinity{n0_drm_1s_uNBreAkable}
 
